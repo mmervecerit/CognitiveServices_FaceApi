@@ -7,7 +7,7 @@ from PIL import Image,ExifTags
 import cv2,imutils
 
 API_KEY = "YOUR_FACE_API_KEY"
-ENDPOINT = "YOUR_FACE_API_'BASEURL_https://westeurope.api.cognitive.microsoft.com/face/v1.0"
+ENDPOINT = "YOUR_FACE_API_BASEURL"
 
 def person_group_create(personGroupId):
     endpoint = ENDPOINT+'/persongroups/{}'.format(person_group_id)
